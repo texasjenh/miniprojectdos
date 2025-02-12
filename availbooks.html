@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<template id="card-template">
+    <div class="col-lg-2 col-md-5 col-sm-10">
+        <div class="card">
+            <div class="card-header">Header</div>
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card Title</h5>
+                <h6 class="card-sub-title mb-2 text-body-secondary">Card Subtitle</h6>
+                <p class="card-text">randon text goes here</p>
+                <a href="#" class="btn btn-primary">More Info</a>
+            </div>
+        </div>
+    </div>
+</template>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+        <script src="https://kit.fontawesome.com/4511d9f0b9.js" crossorigin="anonymous"></script>
+        <title>The Book Nook</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite AU SA&family=Lexend+Exa&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="miniproject1.css">
+    </head>
+
+   <body>
+        <div class="header">
+            <h1>~The Book Nook~</h1>
+            
+        </div>
+                 
+        <div class="navbar fixed-top">
+            <li class="li"><a href="./home.html">Home</a></li>
+            <li class="li"><a href="./availbooks.html">Available Books</a></li>
+            <li class="li"><a href="./aboutus.html">Connect</a></li>
+            <li class="li"><a href="./rankings.html">Chart Toppers</a></li>
+        </div>
+
+    <section class="section">
+        <h2 class="head2"><i class="fa-solid fa-book"></i> Available Books</h2>
+    </section>
+          
+        
+    <section>
+        <br>        
+            <h3 class="head3a"> <i class="fa-solid fa-glasses"></i> Literary Fiction</h3> 
+            <br>
+            <div class="container p-4">
+                <div class="row no gutter">
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/f_akb_martyr.jpg" class="card-img-top" alt="Martyr! Cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/Martyr-novel-Kaveh-Akbar/dp/0593537610/ref=asc_df_0593537610?mcid=fc3851af25243f36bafef15837ee1c87&hvocijid=17597775262988644108-0593537610-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=17597775262988644108&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9199189&hvtargid=pla-2281435179538&psc=1" target="_blank" class="btn btn-outline-info"> More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/f_eve_james.jpg" class="card-img-top" alt="James Cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/James-Novel-Percival-Everett/dp/0385550367/ref=sr_1_1?dib=eyJ2IjoiMSJ9.ifSVdq4jaMdet3NeDJQLba9w5IxhbwsPL9Cy2Fq-ken8KOJNgXCWmPgi-hJ5qQlozWohu4VYde2NlljDEcBEDH-ublwj30GThjzs1RZYcZL4fRENmWPlxlWQV0G-EDMqmX6r0pm3hR-Ej9UO4S2h1ZrBGlh9yt02z6y5-shTSMLlxHqg3RQTosk42KvenC3jUBqLNchaitSXIjjhsjt5ltZ9p1FuIE7lmSSlK4zZO0A.0_48Gb6THSPrxKYKIN9753xLfbWuecTvsxP5QVW54qU&dib_tag=se&hvadid=692453162315&hvdev=c&hvlocphy=9028097&hvnetw=g&hvqmt=e&hvrand=13028750947086518869&hvtargid=kwd-2281045318464&hydadcr=10054_13483919&keywords=james+a+novel+by+percival+everett&qid=1736271948&sr=8-1" target="_blank" class="btn btn-outline-info">More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/f_hai_lifeimpossible.jpg" class="card-img-top" alt="Life Impossible Cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/Life-Impossible-Novel-Matt-Haig/dp/0593489276/ref=tmm_hrd_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.QIUCkm2fBBVjic_OYGK0A_yIRd7s_Me91aKbhRapLb0GcdbEVfti2gN3IJf-9HggVRN-QLXTHSE4FIjRJCDeDfGb7IgE_0scvqUmCxgSR4ZzrwgS4xZywnPax_xJ-C47h5QD6RbzA_q2S3-77YFKRoLtiqs8WnB6SBWNlWXo_I0KPFyJgSwu9QGW3EvrFmtzjob3bQQXFUrW94CirxkeXJBgNtXKbBVZkSM1uvJpgGg.exh-St5AufqCXlDz-HVamWmzzbkj4fJxRqcxPjGKma4&qid=1736302394&sr=8-1" target="_blank" class="btn btn-outline-info">More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/f_moo_godofwoods.jpg" class="card-img-top" alt="The Gods of the Woods Cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/God-Woods-Novel-Liz-Moore/dp/0593418913" target="_blank" class="btn btn-outline-info">More Info</a> 
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/f_qui_annie.jpg" class="card-img-top" alt="After Annie Cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/After-Annie-Novel-Anna-Quindlen/dp/0593229800/ref=sr_1_1?dib=eyJ2IjoiMSJ9.aaobkJ-T3RYwJJmk_8PrrZ94bJQ2O0-sFjcNYd3hIl0Hd-his3Bm8x3THxG_dbp1t_xkTCfteVpD_7-iLIssg2UwhTQTLumfr19ymvUEs8RNGfKa4YtJk2LYrwwLdkxCahHExPJZVlq6wO7KYLUjmxeECj3oRmVM1XMblSHiSVDSIFti03qe-h5uooaaWmEwRtbRd5k0a99hkO76BRGXkO0qkLEqY8ph306ABRc3w18.t8RVTwTzwbQxw6p-D8vdDIiNTkwkkZ0PnBI7pNfuBYE&dib_tag=se&hvadid=694358538361&hvdev=c&hvlocphy=9199189&hvnetw=g&hvqmt=e&hvrand=4244578407747167475&hvtargid=kwd-2273671825347&hydadcr=10028_13483877&keywords=after+annie+by+anna+quindlen&qid=1736272423&sr=8-1" target="_blank" class="btn btn-outline-info">More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/f_roo_intermezzo.jpg" class="card-img-top" alt="Intermezzo Cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/Intermezzo-Novel-Sally-Rooney/dp/0374602638/ref=sr_1_1?dib=eyJ2IjoiMSJ9.Ikp8pHra8qkXjimVskiXd-plrh_OBU4iCsC_HFxlPlCvpXHicVbyDA_WSasYpoGwXG6WMyFJcTxGPc9JRrg0NuOW27Btix9tIB7VRfc32FS75CD1153fCuxMOtG7oQ5W-rLNQnY1ftp4tnbhaOh21uMA0JplbOfGwIRZDKM_EByFehO15Z9xqad4auuHvB791CS2VTWgXriJgtnMcMypUBpULj2XPDOjSNvfwKjaPs0.cQFwrAg8mhRu0n4dgGuf_P8Qddrs8auz3aBr1TCOjSQ&dib_tag=se&hvadid=616863311958&hvdev=c&hvlocphy=9028097&hvnetw=g&hvqmt=e&hvrand=2643670633878199120&hvtargid=kwd-106109084&hydadcr=24665_13611781&keywords=intermezzo&qid=1736272459&sr=8-1" target="_blank" class="btn btn-outline-info">More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <br>
+
+    <section>
+        <br>
+            <h3 class="head3b"> <i class="fa-solid fa-user-secret"></i> Mystery & Thrillers</h3> 
+            <br>
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/m_fmc_housemaid.jpg" class="card-img-top" alt="The Housemaid Cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/Housemaid-absolutely-addictive-psychological-jaw-dropping/dp/1803144386/ref=asc_df_1803144386?mcid=6b364353a7f5317ca3ca515c716ee423&hvocijid=17850512634557970011-1803144386-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=17850512634557970011&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9028097&hvtargid=pla-2281435177858&psc=1" target="_blank" class="btn btn-outline-info">More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/m_fre_hunter.jpg" class="card-img-top" alt="The Hunter Cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/Hunter-Novel-Tana-French/dp/0593493435/ref=asc_df_0593493435?mcid=6e99ff3696fd3223bb1ce2ec6111d934&hvocijid=319326970182283285-0593493435-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=692875362841&hvpos=&hvnetw=g&hvrand=319326970182283285&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9028097&hvtargid=pla-2281435176218&psc=1" target="_blank" class="btn btn-outline-info">More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/m_haw_bluehour.jpg" class="card-img-top" alt="The Blue Hour Cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/Blue-Hour-Novel-Paula-Hawkins-ebook/dp/B0CTYB2221/ref=sr_1_1?dib=eyJ2IjoiMSJ9.4YCKzkDpPJeEdxOgdwEkZ7edd0mcVgaYj20A4O4xPkLlm_ZWkbwIyGl349wV45imLw3jFUtB_qjY9cLlWqwk0R2x0SaqSaObVYMugykIezFWC3a-qOS5omRa7l9NyZFNfCJcn_4WjNcFHUGFrAibhqOAlxug-W_26gqEKZR52CKj-dQYDBE4Fsl0wbRf0d7HJBfsctw_PpAfxnF9SR7fCDI2AH2Fw5FRs4TQfDQtpCo.8mQFfONy5Oamz3xcBwH1EIrixXnTVh3MHBC-CpbA3-Q&dib_tag=se&hvadid=630833749644&hvdev=c&hvlocphy=9199189&hvnetw=g&hvqmt=e&hvrand=14551586256179456107&hvtargid=kwd-59413706&hydadcr=24662_13626696&keywords=the+blue+hour&qid=1736275297&sr=8-1" target="_blank" class="btn btn-outline-info">More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/m_osm_murders.jpg" class="card-img-top" alt="We Solve Murders Cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/We-Solve-Murders-Richard-Osman/dp/059365322X" target="_blank" class="btn btn-outline-info">More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/m_pen_wolf.jpg" class="card-img-top" alt="The Grey Wolf Cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/Grey-Wolf-Novel-Inspector-Gamache/dp/1250328136/ref=sr_1_1?dib=eyJ2IjoiMSJ9.qqnxEO1oEwnSCo09_8dqLCylceIBIejLWUG-j9f3HXk6HKq5milg8BRgTkeNvjSZQBFFWQY4bJsGBGnUJeNb3NdMW9baYov5OdTv4hm3Vh08wmcvS2eo7SCfe_OnKWt07J0G3tQeoe7DAw5W02VExPf0RdDjXGp3CNx3UTA-d6zMDtNwnHRVw7cTX1eVAQP1uyAHhABtfR91S3HwWq2w-N1K-mkO0O89_JZWwXHZbDE.u1GIS2CAFIWdou69BskZeUUJTY-n-JHrbUI2Yozypgo&dib_tag=se&hvadid=580696544773&hvdev=c&hvlocphy=9199189&hvnetw=g&hvqmt=e&hvrand=5009283931908764739&hvtargid=kwd-872641641&hydadcr=22532_13493262&keywords=the+grey+wolf&qid=1736275579&sr=8-1" target="_blank" class="btn btn-outline-info">More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/m_rek_wedding.jpg" class="card-img-top" alt="The Last One at the Wedding Cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/Last-One-Wedding-Novel-ebook/dp/B0CPWT13KW" target="_blank" class="btn btn-outline-info">More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+        <br>   
+
+        <section>
+            <br>
+            <h3 class="head3c"> <i class="fa-solid fa-brain"></i> Nonfiction</h3> 
+            <br>
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/n_deg_merlin.jpg" class="card-img-top" alt="Merlin Cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/Merlins-Universe-Revised-Updated-Twenty-First/dp/1665019859/ref=sr_1_1?dib=eyJ2IjoiMSJ9.3QvkBVN0u0DIo_yq-6Tkpyezr2_jiTTtlDPOM_9VhNXSGfOV-Xtx3J1UwGX-60yVGlsvODLhfDLzoZaHpkwvbt9PAz1hIsXpVqFFXpz6zJ2jeCEjvaglz84R_q8FXRlRKZ3CIzKCncjZWqUZ6w6X8HQ8LTsg-ZTCKv-paZjo7l0gEAy-okO9C51TEEMx3TaS9knak5PrPPEZjysOIt8adtFuS82t0p4rRoIJ9owtw3I.c-JUeoedRv1rH621u99eYPQBvogFXSnSlHTTJzVX5Wk&dib_tag=se&hvadid=580696541920&hvdev=c&hvlocphy=9028097&hvnetw=g&hvqmt=e&hvrand=8636944241930496638&hvtargid=kwd-6246210873&hydadcr=22569_13493349&keywords=merlin%27s+tour+of+the+universe&qid=1736302306&sr=8-1" target="_blank" class="btn btn-outline-info">More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/n_gre_lewis.jpg" class="card-img-top" alt="John Lewis book cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/John-Lewis-Life-David-Greenberg/dp/1982142995/ref=sr_1_1?dib=eyJ2IjoiMSJ9.dIpp8WMt3WKQ-7TPH2wyYPFZjViV31T0-14HF3yxcdpDt_nJXmcPHWrlYGDsgUrQP1wZ5SJRIuJSHVvnVoD1BDAMi0N_DmoGfeZimGxQ7EX3MbwWCp-2Y2ZiFJFh132eal42KKwtyVktWiQeua14kAb1d1UuXe4TbFWqeoufuC_Xgu_fe9vjqvDBTxh8ZOsTGVBXmp8GmbzdXc4Ic9m4WE9S6i7ih5nVC0nWWUr1aVM.Q69eCgItsJ9nX6n5P-Bn_8XiOvwf39MFpZjGbbTyMk0&dib_tag=se&hvadid=705627571118&hvdev=c&hvlocphy=9028097&hvnetw=g&hvqmt=e&hvrand=6611623422585774234&hvtargid=kwd-2327349137006&hydadcr=22096_13323313&keywords=john+lewis+a+life&qid=1736276239&sr=8-1" target="_blank" class="btn btn-outline-info">More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/n_har_nexus.jpg" class="card-img-top" alt="Nexus book cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/Nexus-Brief-History-Information-Networks/dp/B0CT3Y5LL9/ref=sr_1_1?dib=eyJ2IjoiMSJ9.u3vmoY5D_YM0k9JEav4oujQ3I8qtmTUve2Z8vI7st7Ha7ya9scYQDRnS1geVXdrSUfDxjCSmXCpgYdJUi4mVSeHHvbaMkNV6gMcsttB8gEcOIRztv0Wgk7717Z7X33gscgH2g_BdgMObLLbpUqgbHHlJoD8uAceZLz-ImQrfWZ5jytoILQiQMp59Bd_o2chMz3o6PpphirhRSTRgQBB9X8_m7HbbYtSsj7OpPjj01nU.DRC-vLI1R0pEA84iQvFd2X7IDWLqamDGZxoBFUUDeqY&dib_tag=se&hvadid=689006834782&hvdev=c&hvlocphy=9028097&hvnetw=g&hvqmt=e&hvrand=16978580023540329852&hvtargid=kwd-2272876753409&hydadcr=15303_13517969&keywords=nexus+yuval+noah+harari&qid=1736276296&sr=8-1" target="_blank" class="btn btn-outline-info">More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/n_ngu_think.jpg" class="card-img-top" alt="Think book cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/Dont-Believe-Everything-Think-Expanded/dp/B0D47VYQMY/ref=sr_1_1?dib=eyJ2IjoiMSJ9.bLNU8JFwgouyqJqLJEl6IDtGm6fzV61huzTzwPrbWZPd00W5cS6OV4KAAAfi6E64tdbpQ_2gVInwf_BohgOAXvgVhwhf_8fSsA3HCdJlilFRi5tAWuOcIn0EP4tJQwZ9r6dx9PbZbKuj97uN8g--hyf1WpE4nXAA4BFWa-ruqdg.5cUo457OE2yElR2WP8dxZSMpEq36PK5xjkMrq1tj3fQ&dib_tag=se&hvadid=713543445331&hvdev=c&hvlocphy=9199189&hvnetw=g&hvqmt=e&hvrand=12923416230511414426&hvtargid=kwd-1932136999668&hydadcr=22593_13730688&keywords=don+t+believe+everything+u+think&qid=1736276418&sr=8-1" target="_blank" class="btn btn-outline-info">More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/n_sob_curie.jpg" class="card-img-top" alt="Marie Curie book cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/Elements-Marie-Curie-Radium-Science/dp/0802163823/ref=sr_1_1?dib=eyJ2IjoiMSJ9.JHvpeXPwd7YBCwRYJ273c6VKJFoEyVbtWEYSNbAcKvvMqcMYi5mynlNSnJm6qnXt4sVOhqFzIzzBSG_Ck2Nsd29DXznBLK0ILCqKWBDr8iJEjZnqtG7W8HJrmO64CaWUxm4owWuiDkc8dwYiVDU89TJ-SuCdn6Sf4jCQlMNvucHQiTin1c-_VazBek1H9HXWJZfVupBi64CFE9no5i5A7D1eh4MARFqSNC_rGTSPiS8.trXQco2W5DFtueofQohYrVVG2J8aE6r_aXQETfDnlfA&dib_tag=se&hvadid=708219085603&hvdev=c&hvlocphy=9028097&hvnetw=g&hvqmt=e&hvrand=481553096973214786&hvtargid=kwd-2335065825839&hydadcr=15090_13748785&keywords=the+elements+of+marie+curie&qid=1736302015&sr=8-1" target="_blank" class="btn btn-outline-info">More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                    
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/n_tan_backyardbird.jpg" class="card-img-top" alt="Backyard Bird Cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/Backyard-Bird-Chronicles-Amy-Tan/dp/0593536134/ref=sr_1_1?dib=eyJ2IjoiMSJ9.gns8Xhf0RXUttwnvvnvro5PDM0XINKxEq5CS0_1LJO1HF8j2pePyHJowaSq1xjR_mXGPlRh_xk9fHh9r_KmWS7mJELDdvFsjK2WpE73NWmb5XZsadetedQL8FMi4q7Fm4C9GjNS_KknDuy9oqHWHPtXuDd9TCz4AFqI4lN3mqGZpamwCFdBqDUAEizuBsUu0hmfWPhp7ETAINXXeN1xRLXUaZ7kE89ejdFMcT3wUK4o.7mEeDS8gAjnxpFAqglQo94JTj-7sbQRfwvx_v54hsvs&dib_tag=se&hvadid=694984210953&hvdev=c&hvlocphy=9199189&hvnetw=g&hvqmt=e&hvrand=1241923230993664241&hvtargid=kwd-2200771025742&hydadcr=22159_13541042&keywords=the+backyard+bird+chronicles&qid=1736276492&sr=8-1" target="_blank" class="btn btn-outline-info">More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <br>
+        <section>
+            <br>
+            <h3 class="head3d"> <i class="fa-solid fa-heart"></i> Romance</h3> 
+            <br>
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/r_car_crimeofyear.jpg" class="card-img-top" alt="Crime of the Year book cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/Most-Wonderful-Crime-Year-Novel-ebook/dp/B0CRQHRDK1/ref=sr_1_1?crid=1SQICXIX0FOMS&dib=eyJ2IjoiMSJ9.L_JcyS0cj9rJPZ9JCZbMRuKtMi64fUkm3UmIGGe3hXiuQwUDOJOt5-1g0t4ACrxH9ic6QDOZNAUxm7IbWOk4ZNVYwPxErTAgAw88kFvCsYYhK3KS7NWT4ouRNixuQS1nxL14-vJfjrTXUUMxDae0lTTAhvFaXDD4S69hRtZY3eCZpVf1KmLCKKdEZAKuVfyypJrk4gOX96vTocFRubpvNEDVfQpQyxJtv9Ez7Gsff5c.OM9S42t6m4o63O45sY6sNj6J_ouFOvKDZIbOv6vL2a4&dib_tag=se&keywords=the+most+wonderful+crime+of+the+year&qid=1736277130&sprefix=most+wonder%2Caps%2C121&sr=8-1" target="_blank" class="btn btn-outline-info">More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/r_for_summer.jpg" class="card-img-top" alt="THis Summer Will Be Different book cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/This-Summer-Will-Be-Different/dp/0593638883/ref=sr_1_1?dib=eyJ2IjoiMSJ9.Ils_gBFpPQkgKzkl-41VkE-gKC40Dp0yG6Irc9NtXplmlxdvYbBqyqQ7gITx5i-0u1JRBgoF6TmSZFg5bYsss91rqAt21xiYTeH0sdpmv_7FZrg5vfdtCwp-CKxvrx2DGMQJakDR7de_jly-i6YGgokUoVm68osoAkKUxRWiP--i9Cdw3mtwhy4ukIlThXrHiq3R-Tq3hQzV7BzO6WV3xSdJlE-tN8MTyUYfMh1uHcM.JmS_sS54HfRe6TjNz_0g_QFWv4s3e-EqxvQbDIP4Dlo&dib_tag=se&hvadid=671553314846&hvdev=c&hvlocphy=9028097&hvnetw=g&hvqmt=e&hvrand=4634731028059111130&hvtargid=kwd-2380483762752&hydadcr=7659_13589732&keywords=this+summer+will+be+different&qid=1736302180&sr=8-1" target="_blank" class="btn btn-outline-info">More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/r_haz_notinlove.jpg" class="card-img-top" alt="Not In Love book cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/Not-Love-Ali-Hazelwood/dp/0593550420/ref=sr_1_1?dib=eyJ2IjoiMSJ9.hbK6uZFfwbLbmIcv8Y3xjefWoe2kfOJs6FhhfkOyFQrWnOnh-NyfFotkyWndFHzJNKNbolZBlNvxc7FhgADb8vHr112VYE-CALCtRyEZYHvghTKFx4j5wm_6Ry7xoGjz_v9aE63n6DrcxJ9e_YXCF-0_U6QJ6_JpzX1TkdaJ9RmMvloKAohAXJyYX2IfOdD4Ks3to4JakNDatHSb7QEk4ZLu7wH-zNHW5_5grQVhlTQ.2Mw2rG6Os-79PexsNnHClFR5FkYWQ9vR6bI37p2Y_eE&dib_tag=se&hvadid=700283188779&hvdev=c&hvlocphy=9028097&hvnetw=g&hvqmt=e&hvrand=4798505172922646682&hvtargid=kwd-2284980135555&hydadcr=3428_13534959&keywords=not+in+love+by+ali+hazelwood&qid=1736277085&sr=8-1" target="_blank" class="btn btn-outline-info">More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/r_hen_funnystory.jpg" class="card-img-top" alt="Funny Story book cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/Funny-Story-Emily-Henry/dp/0593441214/ref=sr_1_1?dib=eyJ2IjoiMSJ9.ONmxecEERmIBrSCjXXtRHjASsRkYDT89kW46tcIGam4TIB-VM9dTm1COQSjaOlwlpHIuJNFXFoNd3z_MV5_aOWmlV4l1ruwoWqQax4Mg3OHTbw3A_9D5mXe1uM835ENIu5hK_yBUBnI0A_m-82dOUUmen_wshqq2FGonfN_U-aW2xMUIgOvjD9dHOxo3YhdK9mfdKsAsTxyotrCO_Od7VUcf5acDPCOCJu3B8loaxnM.ReBd-_QXa2Urvt5u5hYcEImRv1HMmwA18-Jf8kS1naI&dib_tag=se&hvadid=697548894374&hvdev=c&hvlocphy=9199189&hvnetw=g&hvqmt=e&hvrand=391361320687154449&hvtargid=kwd-2295757915365&hydadcr=10054_13483919&keywords=emily+henry+funny+story+paperback&qid=1736277043&sr=8-1" target="_blank" class="btn btn-outline-info">More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/r_lau_paradise.jpg" class="card-img-top" alt="The Paradise Problem book cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/Paradise-Problem-Christina-Lauren-ebook/dp/B0CL5FS86S/ref=sr_1_1?dib=eyJ2IjoiMSJ9.3LZN0FsQrcPkzMAhc1lbWpW9RRlHFP4u0zNkj_5CIMo_kJAe2O7SwbBgVgRQPp2vLhbHSGQnpYM31bD318D0pgLIDjNNoc_Pv_YidDdPkK7h8xEjg-CF7JFXf_ohUQMxB6ChnIbYQSbYWvgZKSBSms_tkuRgGMHfOObyAGw_BWIql3uDk1yesV-g4GqB133k-Ng8cY2ApdQgq1efTiUWX--Ru-y58k2-eYaxOnNK8Uc.yS7VzueQS5guG2dVgVt5hj4nE_qYncOzJcUY0hTj7ug&dib_tag=se&hvadid=683812526583&hvdev=c&hvlocphy=9199189&hvnetw=g&hvqmt=e&hvrand=10693714000131320223&hvtargid=kwd-2236491367095&hydadcr=8104_13468434&keywords=the+paradise+problem&qid=1736276985&sr=8-1" target="_blank" class="btn btn-outline-info">More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-5 col-sm-10">
+                        <div class="card">
+                            <img src="./images/r_mur_mingle.jpg" class="card-img-top" alt="A Jingle Bell Mingle book cover">
+                            <div class="card-body">
+                                <div class="text-center">
+                                <a href="https://www.amazon.com/Jingle-Bell-Mingle-Novel-Christmas-ebook/dp/B0CS3X9WCZ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.VPkOe7va2TV3kdoAzdFHyTserGOuwQbLxprBz4IUHJMtLHM1i0eyOsjDPKhWhosMqDndFq1BIhkeD4I_r3DI56KFGRJOGXd0gNJRLQURaccbC-AwSKXy6uG9fFucwGtzYr0M2zyWETgFx75zCqMuLeiNZNpy5khBD8yinofwcaD7jRhLKsToFrUI73lfaF-AKMFVvjHDcOHw05gWLiybLioHSBFJDDX74sHE3YNO6EY.la8WyRzOPATulF-jIDV5CJT3SaJ2fg4bOvfznXaUBcI&dib_tag=se&hvadid=713623636472&hvdev=c&hvlocphy=9028097&hvnetw=g&hvqmt=e&hvrand=10663874258541395132&hvtargid=kwd-2275033441160&hydadcr=22560_13730715&keywords=a+jingle+bell+mingle&qid=1736276938&sr=8-1" target="_blank" class="btn btn-outline-info">More Info</a>
+                                <button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>     
+        <br>
+
+    </body>
+
+    <footer class="footer">&copy 2024 JNHARRISON</footer>
+    
+
+</html>
